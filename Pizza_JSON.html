@@ -1,0 +1,115 @@
+Pizza_JSON.html
+<html>
+<head>
+    <title>Pizza_JSON</html>
+</head>
+<body>
+
+<script type="text/javascrip">
+
+    var client = {
+        "nome": "Leandro",
+        "telefones": ["91234-5678", "98765-4321"],
+        "endereco": {
+            "rua": "Rosario",
+            "numero": "123",
+            "cidade": "São Paulo"
+        },
+        "email": "lelel@gmail.com"
+    }
+    {
+        "nome": "Dimitry",
+        "telefones": ["92345-6789", "1234-4567"],
+        "endereco": {
+            "rua": "Barulho",
+            "numero": "236",
+            "cidade": "São Paulo"
+        },
+        "email": "dimi@gmail.com"
+    }
+    {
+        "nome": "João",
+        "telefones": ["92224-5678", "91111-2222"],
+        "endereco": {
+            "rua": "Oratório",
+            "numero": "123",
+            "cidade": "São Paulo"
+        },
+        "email": "vaivai@hotmail.com"
+    }
+
+    var pizza= {
+        "standard menu": true,
+        "change pizza": true,
+        "customize pizza": false,
+        "requirements": [],
+        "parameters": {
+            "input": {
+              "client": {"nome": "Leandro" },
+              "client1": "id11",
+              "pizzas": {
+                    "qty": 2,
+                    "size": "family",
+                    "flavors": ["margheritta", "bbq chick&meat"],
+                    "olives": true
+        "prepare": [action]
+        }
+        {
+            "standard menu": false,
+            "change pizza": true,
+            "customize pizza": true,
+            "requirements": [],
+            "parameters": {
+                "input": {
+                  "client": {"nome": "Kelly" },
+                  "client1": "id13",
+                  "pizzas": {
+                        "qty": 3,
+                        "size": "small[2]", "media[1c]",
+                        "flavors": ["pepperoni", "bbq chick&meat"],
+                        "customize ingredients": {
+                                "dough thickness": "media",
+                                "tomato sauce": true,
+                                "cheese": true,
+                                "ham": true,
+                                "fish": false,
+                                "egg": false,
+                                "herbs": true                                
+                            }
+                        "olives": true
+            "prepare": [action]
+            }
+    var delivery= {
+        "call delivery": "yes",
+        "client1": "id11",
+        "take away": true,
+        "sent": true
+    }
+    {
+        "call delivery": "yes",
+        "client1": "id13",
+        "take away": false,
+        "sent": false
+    }
+    var received= {
+        "client1": "id11",
+        "received pizza": true
+    }
+    {
+        "client1": "id13",
+        "received pizza": true
+    }
+    var confirmedPizza= {
+        "Pizza OK?": true,
+        "Praise": true,
+        "Complaint": false
+    }
+    {
+        "Pizza OK?": null,
+        "Praise": false,
+        "Complaint": true
+    }
+</script>
+
+</body>
+</html>
